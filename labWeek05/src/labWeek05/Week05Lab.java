@@ -150,7 +150,7 @@ public class Week05OOPLab {
 		 
 		for (int i =1; i <= numOfPlayers; i++) {
 			List<Card> playerlist = new ArrayList<>();
-			String playerName = "Player " + 1;
+			String playerName = "Player " + i;
 			finalGameboard.put(playerName, playerlist);
 		}
 		
